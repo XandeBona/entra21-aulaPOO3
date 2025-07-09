@@ -1,7 +1,5 @@
 public class PagamentoCartaoCredito implements IMetodoPagamento {
 
-    double valor = 0;
-
     @Override
     public boolean confirmarPagamento(double valor) {
         if (valor < 1000) {
